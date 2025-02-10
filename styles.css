@@ -1,0 +1,71 @@
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;  /* Tamaño ajustable */
+    text-align: center; /* Centrar el texto */
+}
+
+body{
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.chi{
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar */
+    font-size: 16px; /* Tamaño de texto */
+}
+
+.ño{
+    background-color: #ff4040;
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar */
+    font-size: 16px; /* Tamaño de texto */
+}
+
+.boton1P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.boton1{
+    text-align: center;
+    padding: 20px;
+}
+
+.imgContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#imagen{
+    display: none;
+    width: 400px; /* Ajusta el tamaño según lo necesites */
+}
+
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 24px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
